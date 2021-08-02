@@ -1,0 +1,48 @@
+# This is a sample build configuration for Other.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+
+pipelines:
+  tags:
+    '*':
+      - step:
+          name: copy files
+          script:
+            - pipe: microsoft/azure-storage-deploy:2.0.1
+              variables:
+                SOURCE: $BITBUCKET_CLONE_DIR/docs/*
+                DESTINATION: 'https://storpvinnovations.blob.core.windows.net/cx-documentation-service/scout/user-manual/$BITBUCKET_TAG/'
+                DESTINATION_SAS_TOKEN: $AZURE_DOCS_SAS_TOKEN
+                DEBUG: 'true'
+      - step:
+              name: copy folders
+              script:
+                - pipe: microsoft/azure-storage-deploy:2.0.1
+                  variables:
+                    SOURCE: $BITBUCKET_CLONE_DIR/docs/**/*
+                    DESTINATION: 'https://storpvinnovations.blob.core.windows.net/cx-documentation-service/scout/user-manual/$BITBUCKET_TAG/'
+                    DESTINATION_SAS_TOKEN: $AZURE_DOCS_SAS_TOKEN 
+                    DEBUG: 'true'
+      - step:
+              name: copy meta.json
+              script:
+                - pipe: microsoft/azure-storage-deploy:2.0.1
+                  variables:
+                    SOURCE: $BITBUCKET_CLONE_DIR/meta.json
+                    DESTINATION: 'https://storpvinnovations.blob.core.windows.net/cx-documentation-service/scout/user-manual/'
+                    DESTINATION_SAS_TOKEN: $AZURE_DOCS_SAS_TOKEN 
+                    DEBUG: 'true'
+      - step:
+              name: copy project.json
+              script:
+                - pipe: microsoft/azure-storage-deploy:2.0.1
+                  variables:
+                    SOURCE: $BITBUCKET_CLONE_DIR/project.json
+                    DESTINATION: 'https://storpvinnovations.blob.core.windows.net/cx-documentation-service/scout/'
+                    DESTINATION_SAS_TOKEN: $AZURE_DOCS_SAS_TOKEN 
+                    DEBUG: 'true'
+                              
+ 

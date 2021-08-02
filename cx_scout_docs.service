@@ -1,0 +1,15 @@
+[Unit]
+Description=scout-docs-service
+After=network.target
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=pvadmin
+WorkingDirectory=/home/pvadmin/envs/cx-appcenter/apps/scout/docs
+ExecStart=/usr/bin/python3.6 -m http.server 5555
+
+[Install]
+Alias=scout-docs

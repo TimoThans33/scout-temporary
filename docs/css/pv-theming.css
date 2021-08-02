@@ -1,0 +1,26 @@
+/* Change margins for pdf export */
+
+:root {
+    --base-font-size: 16px;
+    --theme-color   : #00698F;
+    --cover-heading-color : #333333;
+
+    --heading-margin: 0;
+    --table-cell-padding                : 0.4em 0.4em;
+    --base-line-height     : 1.5 ;
+    --heading-h2-margin                  : 0;
+    --heading-h2-padding                 : 2rem 0rem .5rem 0rem;
+    --heading-h3-margin: 1.5rem 0rem 0rem 0rem;
+    --heading-h1-font-weight: 400;
+    --heading-h2-font-weight: 400;
+    --heading-font-weight: 400;
+  } 
+  
+   p {
+    font-size:1rem;
+    margin-block-start: 0em;
+  } 
+
+  .markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
+    margin: 0.5rem 3rem .5rem 0;
+}
