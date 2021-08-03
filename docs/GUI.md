@@ -43,6 +43,12 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongod
 sudo apt update
 sudo apt-get install -y mongodb-org
 ```
+- to check if mongodb is running.
+```
+sudo systemctl status mongod.service
+sudo systemctl start mongod.service
+sudo systemctl enable mongod.service
+```
 
 ### 6.1.3 Install GUI
 - extract scout-gui.zip using file-explorer or terminal

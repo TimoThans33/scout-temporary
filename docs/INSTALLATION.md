@@ -41,7 +41,12 @@ Addres: 192.168.8.<scout-ip+10>
 netmask: 24
 Gateway: 192.168.8.1
 DNS-servers: 8.8.8.8
----
+
+We also need the zeromq library. Install using:
+```
+sudo apt-get install libzmq3-dev
+```
+
 ## 4.2 CX-Appcenter
 The appcenter is a webserver, that runs as a service on the ubuntu server. A service is a process that runs in the background continuously and starts when booting the system.
 To install it, access to the server is required. Set up an ssh connection or connect a monitor and keyboard.
@@ -274,3 +279,10 @@ sudo cp cx_scout_docs.service /etc/systemd/system/
 sudo systemctl start cx_scout_docs.service
 sudo systemctl enable cx_scout_docs.service
 ```
+
+## 4.6 Install Tjess
+-clone the repo or download a deb file from the cloud portal.
+ ```
+ sudo dpkg -i <name-of-package>
+ sudo apt install -f
+ ```
