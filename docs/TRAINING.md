@@ -11,7 +11,7 @@ The most basic map is a simple rectangle type of field .
 4. Create a rectangle in GUI using the measured dimensions.
 5. Make the scout drive your map. 
 
-## 3.2 Obastacles
+## 3.2 Obstacles
 1. In a map there are almost always obstables, which need to be taken into accoutn. Therefore create an obstacle of 1m x 2m right above the scout.
 2. Now, place the obstacle in front of the origin of placement and conclude what happens.
 3. Solve the problem if the obstacle is placed in the origin of placement.
