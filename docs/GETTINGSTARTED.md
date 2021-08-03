@@ -1,2 +1,3 @@
 # 2. Getting Started
-- open firefox and browse to <scout-ip>:8800
+- Open your favourite browser.
+- The GUI is located at <scout-ip>:8800.

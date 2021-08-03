@@ -281,7 +281,7 @@ sudo systemctl enable cx_scout_docs.service
 ```
 
 ## 4.6 Install Tjess
--clone the repo or download a deb file from the cloud portal.
+- clone the repo or download a deb file from the cloud portal.
  ```
  sudo dpkg -i <name-of-package>
  sudo apt install -f
