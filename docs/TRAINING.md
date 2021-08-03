@@ -29,10 +29,10 @@ For the robins to know exactly where they are, the data of the scout is needed t
 ## 3.5 Solutions
 ### 3.5.1 Basic map
 1. (0,0,0)
-2. 10m X 10m, with clockwise coordinates: "[5,-5]", "[5,-5]", "[-5,-5]", "[-5,5]"
+2. 10m X 10m, with clockwise coordinates: [5,-5], [5,-5], [-5,-5], [-5,5]
 3. This can be done by clicking on the scout with the right mouse button and change the origin into: x = 0, y = 0, angle = 1.57 rad (since 1,57 = 0.5pi)). It is important to **use dots** and not comma's!
 4. Always use **clockwise** coordinates. So start right above the rectangle and work the way down.
-5. Click generate grid map, then click generate plan, press play 1 time to initialize the scout and press another time on play to start the scout.
+5. Click generate grid map, then click generate plan, press play one time to initialize the scout and press another time on play to start the scout.
 
 ### 3.5.2 Obstacles
 1. As for the map, also the coordinates of the obstacles should be **clockwise** starting from right above the obstacle.
