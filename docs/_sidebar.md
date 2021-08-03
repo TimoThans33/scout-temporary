@@ -8,6 +8,7 @@
 * [5. Hardware](/HARDWARE.md)
 * [6. Scout GUI](/GUI.md)
 * [7. Mapping Module](/MAPPINGMODULE.md)
+* [8. Mapping Planner](/MAPPINGPLANNER.md)
 * [8. Scout-base](/SCOUTBASE.md)
 * [9. Odrive-client](/ODRIVE.md)
 * [10. G20-optimization](/G20.md)
