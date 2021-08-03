@@ -1,7 +1,7 @@
-# 6. Mapping module
+# 7. Mapping module
 > current version : robot-mapping-module_0.1.1-dev-210727-b5775e1
 
-## 6.1 Config
+## 7.1 Config
 ```
 mapping_plan: /home/pvadmin/mapping_plans/floorplan_3x3.json
 mapping_settings: /home/pvadmin/mapping_plans/mapping_settings.yaml
@@ -36,7 +36,7 @@ peers:
     scope: PARTITION
 ```
 
-## 6.2 Environment
+## 7.2 Environment
 ```
 # Application Environment file
 # Used by all versions

@@ -1,11 +1,11 @@
-# 5. Scout GUI
+# 6. Scout GUI
 
 Documentation on the scout-gui
 
-## 5.1 Installation
+## 6.1 Installation
 The GUI software is installed manually.
 
-### 5.1.1 Install Docker
+### 6.1.1 Install Docker
 We heavily rely on docker for containarization. The latest version should be installed on the scout. Refers to https://docs.docker.com/engine/install/ubuntu/
 - install using apt package manager
 ```
@@ -28,7 +28,7 @@ newgrp docker
 ```
 docker run hello-world
 ```
-### 5.1.2 Install MongoDB
+### 6.1.2 Install MongoDB
 We use mongoDB to store the generated path. Refers to https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/.
 - add the apt key
 ```
@@ -44,7 +44,7 @@ sudo apt update
 sudo apt-get install -y mongodb-org
 ```
 
-### 5.1.3 Install GUI
+### 6.1.3 Install GUI
 - extract scout-gui.zip using file-explorer or terminal
 ```
 pvadmin@<scout_ip>:/home/pvadmin/envs/cx-appcenter/apps/
@@ -68,4 +68,4 @@ sudo systemctl enable cx_scout-gui_0.1-unstable@1.service
 sudo systemctl start cx_scout-gui_0.1-unstable@1.service
 ```
 ---
-## 5.2 Usage
+## 6.2 Usage

@@ -1,8 +1,8 @@
-# 7. Scout-base
+# 9. Scout-base
 Cofiguration and usage of scout-base.
 > current version : scout-base_0.1.1-dev-210708-0d3043a
 
-## 7.1 Config
+## 9.1 Config
 You should change the following accordingly:
 - scout-ip
 - jupiter-serial-number
@@ -153,7 +153,7 @@ K2_wheel_speed: [0.2, 0.2]
 K3_wheel_speed: [0.00, 0.00]
 ```
 ---
-# 7.2 Environment
+# 9.2 Environment
 You should change the following accordingly
 - scout-ip
 ```
