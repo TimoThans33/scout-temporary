@@ -1,4 +1,4 @@
-# Scout-docs
+# 0. Scout-docs
 
 This repo contains all the documentation on the scout.
 

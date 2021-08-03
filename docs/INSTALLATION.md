@@ -1,4 +1,4 @@
-# 4 Installation
+# 4. Installation
 Script for installing the scout from scratch.
 
 ## 4.1 Ubuntu Configuration 
