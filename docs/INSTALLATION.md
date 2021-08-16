@@ -126,7 +126,7 @@ echo 'pvadmin ALL = NOPASSWD: /bin/rm /etc/systemd/system/cx_*@.service' | sudo 
 ```
 
 ### 4.2.4 User Directories
-The envs directory contains the environments folders. The projects directory contains the data which can be found on the repositories.
+The envs directory contains the environments folders. The projects directory contains the data which can be found on the repositories. Create the following directories for appcenter:
 ```
 mkdir -p /home/pvadmin/projects/cx
 mkdir -p /home/pvadmin/envs/cx-appcenter/apps
