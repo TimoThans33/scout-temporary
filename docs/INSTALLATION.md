@@ -99,8 +99,8 @@ sudo nmcli con mod as_demo ipv4.dns 8.8.8.8
 sudo nmcli con mod scout ipv4.gateway ""
 ```
 
-```
-Make journalctl persistent:
+Make journalctl persistent, and check if the file exisist with:
+
 ```
 sudo mkdir /var/log/journal
 ```
