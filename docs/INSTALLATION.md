@@ -212,7 +212,7 @@ sensors:
 ```
 - fill the storage.json (we will add something later maybe)
 ```
-"" > finalize_state_storage.json
+echo "" > /home/pvadmin/storage/finalize_state_storage.json
 ```
 ## 4.3 Sensor 
 - create a shortcut for the accerion control center
