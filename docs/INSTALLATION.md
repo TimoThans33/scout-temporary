@@ -87,8 +87,18 @@ python3 -m pip install Jinja2==2.10 aiohttp==3.7.3 PyJWT==2.1.0 sanic==20.12.3 s
 > note: Install the python packages for python3
 
 > note: If pip is not installed, install using
+
 ```
 sudo apt install python3-pip
+```
+> note: If this also does not work, probably no wifi connection can be established. This since it assumes that it is connected to a internet cable. Then use the following commands to establish wifi connection:
+
+```
+sudo nmcli con mod as_demo ipv4.gateway 192.168.8.1
+sudo nmcli con mod as_demo ipv4.dns 8.8.8.8
+sudo nmcli con mod scout ipv4.gateway ""
+```
+
 ```
 Make journalctl persistent:
 ```
