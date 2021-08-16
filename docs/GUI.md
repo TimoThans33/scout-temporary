@@ -28,6 +28,8 @@ newgrp docker
 ```
 docker run hello-world
 ```
+> In case this does not work, try: sudo apt install docker.io
+
 ### 6.1.2 Install MongoDB
 We use mongoDB to store the generated path. Refers to https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/.
 - add the apt key
