@@ -1,4 +1,5 @@
 # 2. Getting Started
+![scout](images/_B3A2767.jpg)
 
 ## 2.0 WIFI
 Connect to as_demo (if available). Otherwise connect to **No. of Scout** network.
@@ -18,7 +19,10 @@ The documentation is located at **scout-ip**:5555 on the browser.
 - Look for obstacles in the field and place these close to but not on the Main Branch.
 - Measure distances from the origin.
 - If possible, use laser to line the outlines.
-- Use the sensor states
+- Insert the batteries and use the sensor states
+
+![scout](images/_B3A2752.jpg)
+
 | Sensor State | Color |
 |--------------|-------|
 | Startup | White / Yellow |
@@ -31,6 +35,7 @@ The documentation is located at **scout-ip**:5555 on the browser.
 - Main Branch: the main north-south axis
 - Branches: all east-west axis
 - Fillings: all north-south axis (except main branchs)
+
 #### Main Branch
 The main y (north-south) axis that the scout needs to localize.
 

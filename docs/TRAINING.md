@@ -2,6 +2,8 @@
 
 This training will discuss a few cases about the scout using the GUI interface. The GUI interface is an online interface where a map can be created for the scout using corresponding coordinates of the location with existing obstacles. With this map GUI can automatically generate a plan for the scout to drive and at the same time collect data of the environment for the robins to know where they are. 
 
+![scout](images/_B3A2758.jpg)
+
 ## 3.1 Basic map
 The most basic map is a simple rectangle type of field .
 1. Determine origin of this map.
