@@ -261,6 +261,15 @@ odrv0.axis0.requested_state = 7
 set configs
 ```
 odrv0.axis0.encoder.config.pre_calibrated = True
+```
+> check if the following are set to True:
+```
+odrv0.axis0.motor.pre_calibrated
+odrv0.axis0.encoder.pre_calibrated
+odrv0.axis0.encoder.use_index 
+```
+> if true contine with:
+```
 odrv0.axis0.controller.config.anticogging.anticogging_enabled = False
 odrv0.axis0.controller.config.control_mode = CONTROL_MODE_POSITION_CONTROL
 ```
