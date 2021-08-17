@@ -1,6 +1,6 @@
 # 0. Scout-docs
 
-This repo contains all the documentation on the scout.
+This repository contains all the documentation on the scout.
 
 ## 0.1 Usage
 You can start a basic http server in the docs folder.
