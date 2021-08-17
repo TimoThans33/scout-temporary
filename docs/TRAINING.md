@@ -14,7 +14,7 @@ The most basic map is a simple rectangle type of field .
 5. Make the scout drive your map. 
 
 ## 3.2 Obstacles
-1. In a map there are almost always obstables, which need to be taken into accoutn. Therefore create an obstacle of 1m x 2m right above the scout.
+1. In a map there are almost always obstables, which need to be taken into account. Therefore create an obstacle of 1m x 2m right above the scout.
 2. Now, place the obstacle in front of the origin of placement and conclude what happens.
 3. Solve the problem if the obstacle is placed in the origin of placement.
 
