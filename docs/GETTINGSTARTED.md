@@ -1,7 +1,7 @@
 # 2. Getting Started
 To obtain information about the environment (a map) with the Scout, a couple of things need to be set first:
 
-### **1. Determine the physical field**
+## 2.1 Determine the physical field
 
     - Determine the field you would like the Scout to map for you.
     - Check the floor on imperfections and possible rubbish (fix and clean those if needed).
@@ -10,7 +10,7 @@ To obtain information about the environment (a map) with the Scout, a couple of 
     - Measure the outlines of the field and the distance perpendicular to the each outline measured from the origin of your field (by this you also determine the values of the field corners). If possible, this can be done with a laser to measure the outlines of the field.
     - Measure the locations of your obstacles in your field.
 
-### **2. Turn on the Scout**
+## 2.2 Turn on the Scout
 Before using the Scout, make sure you add full batteries to the battery holders of the Scout and press the <span style="color:green">green</span> power button. In the table below you can see which color light the sensors of the Scout will emit during a startup. 
 
 ![scout](images/_B3A2767.jpg)
@@ -25,17 +25,17 @@ Before using the Scout, make sure you add full batteries to the battery holders 
 
 ![scout](images/_B3A2752.jpg)
 
-### **3. Connect to WIFI**
+## 2.3 Connect to WIFI
 To make use of the scout, you need wifi. Connect to the correct wifi by connecting to as_demo (if available), the Scout's network or a hotspot on your own laptop.
 > **Important note:** The IP adress of your Scout is always: 192.168.8. **Scout No. + 10**
 
-### **4. Open the Scout's documentation**
+## 2.4 Open the Scout's documentation
 Remember that you can always find the documentation of the Scout you are using, by opening up a webpage and enter _scout-ip:5555_ on the browser.
 
-### **5. Open GUI & virtualize field**
+## 2.5 Open GUI & virtualize field
 GUI is an online interface where you can control the mapping of your Scout. To go to the GUI, and open up a webpage by entering _scout-ip:8800_ on the browser.
 
-### **6. Virtualize field in GUI**
+## 2.6 Virtualize field in GUI
 GUI is an online interface where you can create a virtual map for the Scout you are using. Within this virtualized map you use the coordinates of the measured outlines, corners and obstacles of your field. With this virtualized map GUI can automatically generate a plan for the Scout to drive & collect data of the environment.  
 
 1. Virtually place your Scout in origin of the field in GUI, facing towards the positive y-axis in GUI. This can be done by clicking on the scout with the right mouse button and change the origin into: x = 0, y = 0, angle = 1.57 rad (since 1,57 = 0.5pi)). 
@@ -50,7 +50,7 @@ GUI is an online interface where you can create a virtual map for the Scout you 
 
 5. When the Scout has finishes mapping, the data from the Scout can be downloaded. Since, the scout has two sensors (left and right) the data is converted on the GUI into one map through an algoritm into an amf file.
 
-## Map definitions
+## 2.7 Map definitions
 - **Main Branch**: the main y/ north-south axis  
 - **Branches**: all x / east-west axis 
 - **Fillings**: all in y / north-south axis 
