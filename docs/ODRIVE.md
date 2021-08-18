@@ -22,3 +22,10 @@ CMDARG4=/home/pvadmin/envs/cx-appcenter/apps/scout-base/config.yaml
 dump_errors(odrv0)
 ```
 - clear odrive errors
+```
+odrv0.clear_errors()
+```
+- disable watchdog timeout
+```
+odrv0.axis0.config.enable_watchdog = False
+```
