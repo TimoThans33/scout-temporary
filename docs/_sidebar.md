@@ -12,4 +12,5 @@
 * [9. Scout-base](/SCOUTBASE.md)
 * [10. Odrive-client](/ODRIVE.md)
 * [11. G20-optimization](/G20.md)
-* [12. Troubleshooting](/TROUBLESHOOTING.md)
+* [12. Rollout](/ROLLOUT.md)
+* [13. Troubleshooting](/TROUBLESHOOTING.md)
