@@ -1,6 +1,14 @@
-# 6. Scout GUI
+# 5. Autonomated Mapping Tool (AMT)
 
-Documentation on the scout-gui
+Documentation on the AMT
+
+## 5.1 Toolbar
+
+## 5.2 Field Editor
+
+## 5.3 Scout Panel
+
+
 
 ## 6.1 Installation
 The GUI software is installed manually.

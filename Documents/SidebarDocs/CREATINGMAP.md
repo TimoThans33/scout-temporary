@@ -1,8 +1,9 @@
-# 2. Creating a Map  wih the Scout via Instructions
+# 2. Creating a Map wih the Scout via Instructions
 To obtain information about the environment (a map) with the Scout, a couple of things need to be done:
 
 ## 2.1 Turn on the Scout
 Before using the Scout, make sure you add full batteries to the battery holders of the Scout and press the <span style="color:green">green</span> power button. 
+
 ## 2.2 Connect to WIFI
 To use a scout, you need to connect your laptop to the wifi. The wifi you can connect to can be as_demo, the Scout's network or a hotspot on your own laptop.
 > **Important note:** The IP adress of your Scout is always: 192.168.8. **Scout No. + 10**
