@@ -1,4 +1,4 @@
-# 5. Hardware
+# 5. Scout Hardware
 In this section information about the hardware of the scout can be found.
 
 ## 5.1 Sensors
