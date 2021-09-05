@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
+* [0. Glossary](docs/0-Glossary/GLOSSARY.md)
 * [1. Introduction](docs/1-Introduction/INTRODUCTION.md)
 * [2. Creating a Map](docs/2-Creating-a-map/CREATINGMAP.md)
 * [3. Scout Hardware](docs/3-Scout-hardware/HARDWARE.md)
@@ -6,5 +7,4 @@
 * [5. AMT](docs/5-AMT/AMT.md)
 * [6. Software Installation](docs/6-Software-installation/INSTALLATION.md)
 * [Appendix: Training](docs/Appendix/TRAINING.md)
-* [Appendix: Glossary](docs/Appendix/GLOSSARY.md)
 * [Appendix: Rollout](docx/Appendix/ROLLOUT.md)
