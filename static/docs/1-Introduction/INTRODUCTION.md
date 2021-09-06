@@ -4,7 +4,7 @@
 
 For the autonomous sorting system to function essential data needs to be obtained by a robot, called the scout. The scout obtains data about the environment through scanning and mapping a floor with it's sensors. The gathered data consists of a digital map that will be (manually) transferred to every robot in the autonomous sorting system. 
 
-![scout](images/_B3A2759.jpg)
+![scout](media/_B3A2759.jpg)
 
 ## 1.2 Content Scout documentation
 
