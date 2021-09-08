@@ -1,18 +1,20 @@
-# 2. Creating a Map wih the Scout via Instructions
-To obtain information about the environment (a map) with the Scout, a couple of things need to be done:
+# 2. Creating a map
+To obtain information about the environment (a map) with the scout, a couple of things need to be done:
 
-## 2.1 Turn on the Scout
-Before using the Scout, make sure you add full batteries to the battery holders of the Scout and press the <span style="color:green">green</span> power button. 
+## 2.1 Turn on the scout
+Before using the scout, make sure you add full batteries to the battery holders of the scout and press the <span style="color:green">green</span> power button.
 
 ## 2.2 Connect to WIFI
-To use a scout, you need to connect your laptop to the wifi. The wifi you can connect to can be as_demo, the Scout's network or a hotspot on your own laptop.
-> **Important note:** The IP adress of your Scout is always: 192.168.8. **Scout No. + 10**
+To use a scout, you need to connect your laptop and scout to the same wifi. One could connect his laptop to the hotspot of the scout or connect the scout and laptop to the same wifi. 
+> **Important note:** The IP adress of your scout is always: 192.168.8.(**Scout No. + 10**)
 
 ## 2.3 Open Autonomous Mapping Tool (AMT) 
-The Autonomous Mapping System (AMT) is an online interface where you can easily manage and control the mapping of your scout. To go to the AMT, open up a webbrowser on your laptop and enter  _"scout-ip":8800_.
+The Autonomous Mapping System (AMT) is an online interface where you can easily manage and control the mapping of your scout. The AMT can be accessed through your webbrowser using the address: _"scout-ip":8800_.
 
 ## 2.4 Upload Instructions on the (AMT) 
-The instructions (script) given by ... can be uploaded on the AMT via ...
+The mapping plan can be downloaded from ... and can be uploaded on the AMT via the open a file button.
+
+![OpenFile](media/OpenFile.png)
 
 ## 2.5 Press play 
 Press the play button in the AMT to let the scout start with mapping.

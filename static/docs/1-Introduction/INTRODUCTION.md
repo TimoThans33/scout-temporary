@@ -8,6 +8,13 @@ For the autonomous sorting system to function essential data needs to be obtaine
 
 ## 1.2 Content Scout documentation
 
-In this documentation about the scout one can read all about: How to create a map with a given mapping plan, a couple of important components of the scout (hardware), physical floor prepartion to obtain a mapping plan for the scout, functions of the Autonomated Mapping Tool (AMT) and the software installation of the scout. Furthermore, in the appendix one can execute a training to get familiar with how to create a MAP with the AMT. Also, a glossary is provided to get a definition from frequently occuring terms. 
+In this documentation about the scout one can find information about:
+- The most-used terms. 
+- How to create a map with a given mapping plan.
+- Important components of the scout (hardware).
+- Physical floor preparation to obtain a mapping plan for the scout.
+- Functions of the Autonomated Mapping Tool (AMT).
+- How to perform the software installation of the scout. 
+- A training protocol to test your knowledge about the scout.
 
 
